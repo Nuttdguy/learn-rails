@@ -21,9 +21,9 @@ gem 'spring'
 # learn-Rails
 gem 'foundation-rails'
 gem 'gibbon'
-gem 'google_drive'
 gem 'high_voltage'
 gem 'simple_form'
+gem 'figaro'
 
 group :development, :test do
   gem 'better_errors'

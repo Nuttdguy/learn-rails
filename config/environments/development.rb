@@ -28,13 +28,13 @@ Rails.application.configure do
   config.assets.debug = true
 
   config.action_mailer.smtp_settings = {
-    address: "smtp.adlixir.net",
-    port: 465,
-    domain: Rails.application.secrets.domain_name,
-    authentication: "plain",
+    address: "smtp.gmail.com",
+    port: 587,
+    domain: ENV['domain_name'],
+    authentication: 'plain',
     enable_starttls_auto: true,
-    user_name: Rails.application.secrets.email_provider_username,
-    password: Rails.application.secrets.email_provider_password
+    user_name: ENV['gmail_username'],
+    password: ENV['gmail_password']
   }
 
   # ActionMailer Config
