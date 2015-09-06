@@ -1,2 +1,5 @@
 gmail_username: 'pygnasak@gmail.com'
 gmail_password: 'Phou2@@3!!'
+mailchimp_api_key: '2a9af53e54e691ec4d099dd693b41008-us11'
+mailchimp_list_id: '5779b51e7d'
+domain_name: 'thealchemist.herokuapp.com'
