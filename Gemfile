@@ -25,7 +25,7 @@ gem 'high_voltage'
 gem 'simple_form'
 gem 'figaro'
 
-group :development, :test do
+group :development do
   gem 'better_errors'
   gem 'quiet_assets'
   gem 'rails_layout'
@@ -35,5 +35,10 @@ end
 group :production do
   gem 'pg'
   gem 'rails_12factor'
+end
+
+group :test do
+  gem 'minitest-spec-rails'
+  gem 'minitest-rails-capybara'
 end
 
