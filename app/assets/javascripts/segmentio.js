@@ -45,7 +45,7 @@ window.analytics.SNIPPET_VERSION = '2.0.8';
 
 // Load analytics.js with your API key, which will automatically load all of the
 // analytics integrations you've turned on for your account. Boosh!
-window.analytics.load('6Z9UcPmxpa');
+window.analytics.load('TgK8Q3F5zvTdv7jv97IVMzy3qkJC7apG');
 
 // Make our first page call to load the integrations. If you'd like to manually
 // name or tag the page, edit or move this call to use your own tags.
